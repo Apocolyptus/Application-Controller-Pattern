@@ -1,0 +1,21 @@
+#Creating Objects#
+
+This is what will be used to create an object, it dictates what information should be passed to the object (if any) at the time
+of its creation and is the first thing that is called when an object is created. There can be multiple constructors for a single
+object.
+
+A constructor must have the same name as the class that it is in (i.e. if you created a Car class you must have your
+constructors name be Car too).
+
+If there is more then one constructor for a class they must not have the same header (i.e. you can't have two constructors in
+the same class with the header public Car(), they must be different).
+
+The access specifier is what determines what code can see and use this specific constructor, there are three values it can be,
+public, private and protected. Public means that code that is outside of the constructors class can see and use it. Private
+means only code inside of the constructors class can see and use it. 
+
+After the access specifier you must type the constructors name (remember the constructors name must be the same as the class
+name) followed by a pair of parenthesis. These parenthesis can be left blank or contain Parameters. If a constructor contains a
+parameter you must declare the parameters data type followed by the name of the parameter. If a constructor contains 2 or more
+parameters you must declare the data type and name for each parameter, even if the parameters are of the same type (i.e. you
+can't do the following public Rectangle(Double w, h) as it will cause an error).
