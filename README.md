@@ -8,7 +8,7 @@ Application Controller Pattern, how/when to Apply it and how to Code it
 
 1) [Creating Objects] (1_Creating Objects.txt)
 
-  • [Example] (hibernate.java)
+  • [Java Object] (object.java)
 
 2) [Constructors] (2_Constructors.txt)
 
